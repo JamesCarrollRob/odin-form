@@ -14,9 +14,12 @@ main {
     background-color: #FAFAFA;
   }
 
-  img{
+  /* img{
     border-radius: 30px;
-  }
+    box-shadow: 15px 5px 5px red;
+    height: 100%;
+    width: 35%;
+  } */
 
   fieldset {
     border: none;
@@ -45,4 +48,24 @@ main {
     border-radius: 1rem;
     box-shadow: 0 0 15px 2px #DDD;
     overflow: hidden;
+}
+
+.image-container{
+  height: 100%;
+  width: 35%;
+  background-image: url("odin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.logo-container{
+  height: 150px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img{
+  max-height: 100%;
 }
