@@ -11,7 +11,7 @@ body {
 main {
     height: 100%;
     max-width: 65%;
-    background-color: #FAFAFA;
+    background-color: #EAE3E0;
   }
 
   /* img{
@@ -27,8 +27,28 @@ main {
     gap: 3rem;
   }
 
+  h2{
+    padding-left: 2em;
+    font-family: Norse;
+    font-size: 40px;
+    color: crimson;
+    background-color: #0d161e;
+  }
+
+  button{
+    background-color: #596D48;
+    color: #DDD;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+  }
+
   .description {
         padding: 3em 2em;
+        font-size: 1.25rem;
+font-weight: 600;
   }
 
 .form-container {
@@ -36,6 +56,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     padding-left: 2em;
+    padding-top: 3em;
     
     margin-bottom: 3rem;
 }
@@ -64,8 +85,22 @@ main {
   margin-top: 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: rgba(115, 52, 52, 0.5);
+  font-family: Norse;
+  color: rgb(233, 236, 19);
+  font-size: 3em;
 }
 
 .logo-container img{
   max-height: 100%;
 }
+
+.description{
+  background-color: #dbe5e8;
+}
+
+.button-container{
+  padding-left: 2em;
+}
+
