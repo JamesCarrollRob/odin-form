@@ -1,0 +1,48 @@
+body {
+    
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+    
+}
+
+main {
+    height: 100%;
+    max-width: 65%;
+    background-color: #FAFAFA;
+  }
+
+  img{
+    border-radius: 30px;
+  }
+
+  fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .description {
+        padding: 3em 2em;
+  }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2em;
+    
+    margin-bottom: 3rem;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #DDD;
+    overflow: hidden;
+}
