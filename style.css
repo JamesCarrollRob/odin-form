@@ -104,3 +104,10 @@ font-weight: 600;
   padding-left: 2em;
 }
 
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
